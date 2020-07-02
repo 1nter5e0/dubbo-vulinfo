@@ -11,8 +11,9 @@
 ## 漏洞证明详细：
     在本地新建ldap服务，将请求重定向到http服务的恶意类。
     其中恶意类为本地弹出计算器，Cals.java源码：
-    ···
-        import java.io.IOException;
+
+
+```import java.io.IOException;
 
 public class Calc {
     
@@ -29,6 +30,5 @@ public class Calc {
     }
     
 }
-    ···
-
+```
 
